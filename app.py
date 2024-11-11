@@ -96,7 +96,8 @@ col1, col2 = st.columns([1, 3])
 
 # Afficher le logo dans la première colonne
 with col1:
-    st.image(r'C:\Users\Islem\Desktop\prediction_delais\logo poste tunisienne.png', width=150)
+   st.image('assets/logo poste tunisienne.png', width=150)
+
 
 # Afficher le titre dans la deuxième colonne
 with col2:
