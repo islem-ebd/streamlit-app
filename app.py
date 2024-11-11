@@ -4,8 +4,9 @@ import joblib
 from datetime import datetime
 
 # Charger les modèles XGBoost
-model_path_regression = r'C:\Users\Islem\Desktop\prediction_delais\xgboost_model.pkl'
-model_path_classification = r'C:\Users\Islem\Desktop\prediction_delais\xgboostmodel.pkl'
+model_path_regression = 'models/xgboost_model.pkl'
+model_path_classification = 'models/xgboostmodel.pkl'
+
 model_regression = joblib.load(model_path_regression)
 model_classification = joblib.load(model_path_classification)
 
